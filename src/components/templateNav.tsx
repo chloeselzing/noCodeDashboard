@@ -1,11 +1,16 @@
 import React from 'react'
 import '../styles/templateNav.css'
-import {besideMenu,Menu} from '../images'
+import {GRID,List} from '../images'
 
 
-type Props = {}
+type Props = {
+    onClick: () => void;
+    Click: () => void;
+    ClassName: string;
+    ClassName2: string;
+}
 
-const templateNav = (props: Props) => {
+const templateNav: React.FC<Props> = ({ onClick, Click, ClassName,ClassName2,...rest}: Props) => {
   return (
     <div className='containers'>
         <div>
@@ -17,11 +22,11 @@ const templateNav = (props: Props) => {
             <select name="viewed" id="viewed">
                 <option value=" Last viewed">Last viewed</option>
             </select>
-            <button>
-                <img src={besideMenu} alt="Grid" />
+            <button className={ClassName}  onClick={onClick}>
+                <img src={GRID} className='button-image' alt="Grid"/>
             </button>
-            <button>
-                <img src={Menu} alt="List" />
+            <button className={ClassName2}   onClick={Click}>
+                <img src={List} className='button-image' alt="List" />
             </button>
         </div>
     </div>

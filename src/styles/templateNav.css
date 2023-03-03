@@ -16,8 +16,9 @@ color: white;
 border: none;
 margin: 0.3125rem;
 }
-button img{
-    width: 1.375rem;
+.button-img{
+    display: grid;
+    width: 375rem;
     height: 1.375rem;
 }
 #sites{

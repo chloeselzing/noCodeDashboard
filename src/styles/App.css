@@ -2,3 +2,19 @@ body{
     padding: 0rem 4.5rem;
     background-color: #ffffff;
   }
+  .btn{
+    position: relative;
+    width: max-content;
+    padding: 5px;
+    background-color:#EEEEEE;
+    border-radius: 1px;
+    opacity: 1;
+    transition: opacity 0.5s;    
+  }
+  .active{
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+    border-radius: 1px;
+    padding: 5px;
+    opacity: 1;
+  }

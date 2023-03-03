@@ -1,5 +1,6 @@
 export {default as Add} from './Add.svg'
-export {default as besideMenu} from './besideMenu.svg'
+export {default as GRID} from './GRID.svg'
+export {default as List} from './List.svg'
 export {default as downArrow} from './downArrow.svg'
 export {default as Fiour} from './Fiour.svg'
 export {default as Five} from './Five.svg'
