@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    place-self: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding: 1.1875rem 1.75rem;
+    width: 62.5%;
+    height: 3.5rem;
+    border: .0625rem solid #98A2B3;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 3.875rem;
+    margin: auto;
+}   
+.newSite{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 3.75rem;
+    align-items: center;
+    column-gap: .75rem;
+}
+.add{
+    display: grid;
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: #15AFB2;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+font-size: 1.625rem;
+font-weight: 600;
+letter-spacing: -0.02em;
+}
+.text{
+font-size: .875rem;
+font-weight: 400;
+}

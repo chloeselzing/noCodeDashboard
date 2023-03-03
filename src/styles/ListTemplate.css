@@ -1,0 +1,35 @@
+.list-template-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 4.5rem;
+    margin: 1.5rem 0rem;
+    align-items: center;
+
+}
+.img{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 2.5rem;
+}
+.title{
+ width: 22.75rem;
+font-size: 1.5625rem;
+font-weight: 600;
+letter-spacing: 0em;
+margin-right: 17.875rem;
+}
+.time{
+width: 13.0625rem;
+font-size: 1.5625rem;
+font-weight: 400;
+letter-spacing: 0em;
+margin-right: 24.75rem;
+}
+.menu{
+    height: 1.875rem;
+    width: .4169rem;
+}

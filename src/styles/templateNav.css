@@ -1,0 +1,40 @@
+.containers{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    place-self: center;
+    align-items: center;
+    height: 3.25rem;
+    margin: auto;
+    margin-top: 5.4356rem;
+
+}
+button {
+width: fit-content;
+height: fit-content;
+color: white;
+border: none;
+margin: 0.3125rem;
+}
+button img{
+    width: 1.375rem;
+    height: 1.375rem;
+}
+#sites{
+    font-size: 1.625rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;   
+    border: none;
+    background-color: white;
+}
+select:hover,option:hover, select:focus,option:focus{
+    outline: none;
+}
+#viewed{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;   
+    border: none;
+    margin-right: 22.875rem;
+    background-color: white;
+}
